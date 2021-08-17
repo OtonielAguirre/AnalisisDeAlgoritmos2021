@@ -10,7 +10,7 @@ void bubbleSort(int* , int);
 
 void main(void){
 	int valorUsuario;
-	printf("Introduzca un numero entero: ");
+	printf("Ingrese la cantidad de numeros a ordenar: ");
     scanf("%d", &valorUsuario);
 	int i, tam;
 	int* vector = (int*)malloc(sizeof(int) * valorUsuario);
