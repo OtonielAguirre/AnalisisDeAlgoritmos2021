@@ -20,7 +20,7 @@ void main(void){
 		rellenaArreglo(aux, valorUsuario);
 		imprimeArreglo(aux, valorUsuario);
 		bubbleSort(aux, valorUsuario);
-		printf("\n -----------------------Despues de la iteracion------------------------------");
+		printf("\n\nDespues de la iteracion: \n\n");
 		imprimeArreglo(aux, valorUsuario);
 	}
 	else
@@ -39,7 +39,7 @@ void rellenaArreglo(int* a, int valorUsuario){
 void imprimeArreglo(int* a, int valorUsuario){
 	int i;
 	for(i = 0; i < valorUsuario; ++i)
-		printf("\n%d", *(a++));
+		printf("%d, ", *(a++));
 }
 
 void swap(int* a, int* b){
